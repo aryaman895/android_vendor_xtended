@@ -9,6 +9,9 @@ XTENDED_BUILD_SUPPORT_URL ?= https://t.me/XtendedOfficial
 
 ifeq ($(WITH_GAPPS), true)
 XTENDED_BUILD_VARIANT := GAPPS
+
+PRODUCT_PACKAGES += \
+    XtendedThemesStub
 endif
 
 # Xtended Release
